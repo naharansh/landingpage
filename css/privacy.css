@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.first {
+
+    background-color: #070606d4;
+    min-height: 100vh;
+    padding-inline: 120px ;
+}
+.second {
+    margin-inline: auto;
+   
+    background-size: 100px;
+}
+
+.sections
+{
+    width: 100%;
+    margin-inline: auto;
+    font-weight: 800;
+    color: black;
+    background-color: rgb(243, 244, 246);
+}
+.header
+{
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Noto Serif Devanagari",sans-serif;
+    padding-top: 1.5rem;
+    padding-inline: 0.5rem;
+}
+.para
+{
+    font-size: 1rem;
+    padding-block: 0.5rem;
+    text-align: justify;
+    padding-inline: 0.5rem;
+}
