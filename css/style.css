@@ -109,7 +109,7 @@
 .contents {
     color: #266e6d;
     font-weight: 700;
-    text-align: justify;
+   
     /* margin-bottom: -40px; */
 }
 
@@ -123,6 +123,7 @@
     font-family: 'Poppins, sans-serif';
     color: #266e6d;
     font-weight: bold;
+     text-align: justify;
 }
 
 .success {
@@ -435,7 +436,7 @@
 }
 
 .review {
-    text-align: start;
+    text-align: justify;
     margin-top: 0px;
     font-size: 1rem;
     padding-block: 0.25rem;
@@ -469,7 +470,7 @@
     padding-inline: 0.5rem;
     padding-block: 0.5rem;
     font-size: 1rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .tesitn {
@@ -594,6 +595,7 @@
     font-size: 16px;
     color: #333;
     font-weight: 600;
+    text-align: justify;
 }
 
 .tail {
@@ -691,11 +693,19 @@
     .text {
         font-size: 28px;
     }
-
+    .sid
+    {
+        width: 90vw;
+    }
     .rem {
         font-size: 20px;
+        padding: 0px;
+        width: 90vw;
     }
-
+.center
+{
+    text-align: center;
+}
     .button {
         width: 200px;
         font-size: 18px;
@@ -706,6 +716,29 @@
     {
         margin: 20px;
     }
+    .second {
+    margin-inline: auto;
+    background-image: url('../assets/background.webp');    
+    background-repeat: repeat;
+    background-size: 100vw;
+}
+.subsize
+{
+    font-size: 0.8rem;
+}
+.testingss
+{
+    width: 70%;
+    /* width: 100% !important; */
+    margin-block:0px;
+
+}
+.widd
+{
+    width: 80vw;
+    margin-inline: 30px;
+}
+
 }
 
 
@@ -792,11 +825,68 @@
       .main_heading { font-size: 55px; }
       .sub_heading { font-size: 32px; }
       .fontSize { font-size: 36px; }
-      .styles { font-size: 1.2rem; }
+      .styles { font-size: 0.2rem; width: 90vw; }
       .button { font-size: 18px; width: 180px; }
       .ingredient-card, .cardss { margin: 15px auto; }
       .box { width: 240px; }
       .sectionscard { grid-template-columns: 1fr !important; }
+      .hel
+{
+    margin-inline: 50px;
+    text-align: center;
+    font-size:0.1rem;
+}
+.success
+{
+    text-align: center;
+    margin-inline: 0px;
+    margin-left: -100px;
+}
+.fontSizes
+{
+    text-align: center;
+}
+.new_sections
+{
+    width: 100%;
+}
+.headings {
+ display: flex;
+    align-items: center;       /* ← vertically center image & text */
+    gap: 0rem;
+    padding-inline: 0;
+    margin-block: 20px;
+}
+.inner_section {
+    display: flex;
+    place-items: center;
+    width: 100%;
+    margin-inline: auto;
+    gap: 3;
+    margin-block:0;
+}
+.headers
+{
+    font-size: 1.9rem;
+}
+.sections {
+    background-color: white;
+    padding: 0rem;
+    padding-block: 0;
+    background-image: url('../assets/background.avif');
+    background-size:70%
+}
+
+    .main_heading {
+    text-align: center;
+    font-size:1.9rem;
+    font-weight: 900;
+    font-family: 'Roboto, sans-serif;';
+    color: #00fffb;
+    background-color: #333333fb;
+    border: none;
+   border-radius: 10px;
+}
     }
 
     @media (max-width: 768px) {
