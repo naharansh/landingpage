@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .first {
@@ -11,46 +12,43 @@
     padding-inline: 10px;
 
 }
-
 .second {
     margin-inline: auto;
     
 }
-
 .sections {
-    width: 100%;
+    width: 80%;
     margin-inline: auto;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.76);
     background-color: rgb(252, 248, 248);
 }
-
-.header {
-    font-weight: 800;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: "Noto Serif Devanagari", sans-serif;
-    padding-top: 1.5rem;
-    padding-inline: 0.5rem;
-}
-
-.para {
+.headers
+{
+    text-align: center !important;
     font-size: 1rem;
-    padding-block: 0.5rem;
+    padding-top: 1.6rem;
+    font-weight: 800;
+    
+}
+.firsters
+{
     text-align: justify;
-    padding-inline: 0.5rem;
+    font-size:1.1rem;
+    padding: 0.5rem;
+    font-weight: 500;
 }
 
 @media (max-width:867px) {
     .first {
 
-        width: 100vw !important;
+        width: 90vw !important;
         min-height: 100vh;
         padding-inline: 0px;
     }
 
     .second {
-        width:100vw !important;
+        width:90vw !important;
         /* background-color: none; */
     }
 
